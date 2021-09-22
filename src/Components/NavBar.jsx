@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav } from 'react-bootstrap'
-import './css/Header.css'
+import './css/NavBar.css'
 
 const NavBar = () => {
     return (
-        <>
+      <>
         <div id="navBar">
           <Nav.Item>
             <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
