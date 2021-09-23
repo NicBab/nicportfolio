@@ -10,6 +10,10 @@ const Portfolio = () => {
         window.open("https://goofy-wright-304451.netlify.app/")
     }
 
+    const onBayouBrosClick = () => {
+        window.open("https://jolly-ramanujan-7108eb.netlify.app/")
+    }
+
     return (
         <>
         <div>
@@ -17,6 +21,7 @@ const Portfolio = () => {
         </div>
             <div className="artCollector" onClick={onArtCollectorClick}>Harvard Art Collector</div>
             <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography</div>
+            <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
         </>
     )
 }
