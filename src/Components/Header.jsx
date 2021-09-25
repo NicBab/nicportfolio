@@ -4,7 +4,7 @@ import './css/Header.css'
 const Header = () => {
     return (
         <div className="header">
-            Header
+            Nic Babineaux
         </div>
     )
 }
