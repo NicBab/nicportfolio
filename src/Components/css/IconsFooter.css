@@ -1,0 +1,25 @@
+#iconsFoot {
+    display: flex;
+   margin-right: 4px;
+   
+}
+
+.gitHubIconFooter {
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    background-color: black;
+}
+
+.linkedinIconFooter {
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    background: black;
+}
+
+.bi-github-ft,
+.bi-linkedin-ft {
+    color: white;
+    background-color: black;
+}

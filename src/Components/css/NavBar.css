@@ -7,7 +7,7 @@
     background-color: rgb(0, 208, 255);  
 }
 
-.headIcons {
+.headIconsSpace {
     display: flex;
     justify-content: end;
     flex-grow: 2;

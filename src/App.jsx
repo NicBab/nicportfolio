@@ -10,15 +10,15 @@ function App() {
 
   return (
     <Router>
-      <Header />
-      <NavBar />
-      <Switch>
+     <Header />
+     <NavBar />
+       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/bio" component={Bio} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact}/>
-      </Switch>
-      <Footer/>
+       </Switch>
+     <Footer/>
     </Router>
   );
 }

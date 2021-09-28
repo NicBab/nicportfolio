@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialIcons from './SocialIcons'
+import IconsFooter from './IconsFooter'
 import './css/Footer.css'
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
           <div id="foot">
             <div className="footName">@Nic Babineaux Portfolio 2021</div>
           </div>
-          <div id="footIcons"><SocialIcons/></div>
+          <div id="footerIconsSpace"><IconsFooter/></div>
           <div className="stellar">a Stellar Innovation Development</div>
         </>
     )
