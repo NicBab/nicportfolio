@@ -1,21 +1,14 @@
 #iconsFoot {
     display: flex;
    margin-right: 4px;
-   
 }
 
-.gitHubIconFooter {
-    cursor: pointer;
-    margin: 5px;
-    color: white;
-    background-color: black;
-}
-
+.gitHubIconFooter,
 .linkedinIconFooter {
     cursor: pointer;
     margin: 5px;
     color: white;
-    background: black;
+    background-color: black;
 }
 
 .bi-github-ft,

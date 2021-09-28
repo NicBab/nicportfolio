@@ -3,6 +3,8 @@
     color: white;
 }
 
-.bioP {
+figCaption {
     color: white;
+    text-indent: 2em;
+    font-size: 16pt;
 }
