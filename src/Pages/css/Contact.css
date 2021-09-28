@@ -1,3 +1,8 @@
 .contactPg {
     text-align: center;
 }
+
+.contactEmail,
+.contactPhone {
+    color: white;
+}

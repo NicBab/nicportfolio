@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav } from 'react-bootstrap'
 import './css/NavBar.css'
+import SocialIcons from './SocialIcons'
 
 const NavBar = () => {
     return (
@@ -19,7 +20,10 @@ const NavBar = () => {
           <Nav.Item>
             <Nav.Link><Link to ="/contact" className="fa-contact">Contact</Link></Nav.Link>
            </Nav.Item>
-          </div>
+           <div className="headIcons">
+             <SocialIcons/>
+           </div>
+         </div>
        </>
     )
 }

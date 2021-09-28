@@ -1,0 +1,25 @@
+#icons {
+    display: flex;
+   margin-right: 4px;
+   background-color: rgb(0, 208, 255); 
+}
+
+.gitHubIcon {
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    background-color: rgb(0, 208, 255); 
+}
+
+.linkedinIcon {
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    background-color: rgb(0, 208, 255);
+}
+
+.bi-github,
+.bi-linkedin {
+    color: black;
+    background-color: rgb(0, 208, 255); 
+}

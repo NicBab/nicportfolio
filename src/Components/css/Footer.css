@@ -1,0 +1,26 @@
+#foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+#footIcons {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+   
+}
+
+.stellar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    font-family: "Style Script";
+    padding: 4px;
+}

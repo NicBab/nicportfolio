@@ -15,11 +15,16 @@ const Portfolio = () => {
         window.open("https://quirky-lamport-8e798a.netlify.app/")
     }
 
+    const onNicPortfolioClick = () => {
+        window.open("https://github.com/NicBab/nicportfolio")
+    }
+
     return (
         <>
-        <div className="portfolioPg">
-            Portfolio Page
-        </div>
+          <div className="portfolioPg">
+             Portfolio Page
+          </div>
+            <div className="nicPortfolio" onClick={onNicPortfolioClick}>Nic Babs Portfolio</div>
             <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography</div>
             <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
             <div className="artCollector" onClick={onArtCollectorClick}>Harvard Art Collector</div>
