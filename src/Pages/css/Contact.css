@@ -1,8 +1,13 @@
 .contactPg {
     text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 2em;
 }
 
 .contactEmail,
 .contactPhone {
     color: white;
+    padding: 8px;
+    font-size: 16pt;
 }
