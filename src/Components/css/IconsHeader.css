@@ -5,7 +5,8 @@
 }
 
 .gitHubIconHeader,
-.linkedinIconHeader {
+.linkedinIconHeader,
+.facebookIconHeader {
     cursor: pointer;
     margin: 5px;
     color: white;
@@ -13,7 +14,21 @@
 }
 
 .bi-github-hd,
-.bi-linkedin-hd {
+.bi-linkedin-hd,
+.bi-facebook-hd {
+    color: black;
+    background-color: rgb(0, 208, 255); 
+}
+
+/*instagram header icon takes different color parameters*/
+.bi-instagram-hd {
+    color: rgb(0, 208, 255);
+    background-color: black; 
+    border-radius: 8px;
+}
+.instaIconHeader {
+    cursor: pointer;
+    margin: 5px;
     color: black;
     background-color: rgb(0, 208, 255); 
 }
