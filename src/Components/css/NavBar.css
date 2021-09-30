@@ -37,3 +37,12 @@ a,
     font-family: 'Permanent Marker', cursive;
 }
 
+.fa-home:hover,
+.fa-about:hover,
+.fa-portfolio:hover,
+.fa-resume:hover,
+.fa-contact:hover {
+    color: white;  
+    text-shadow: 1px 1px;
+}
+
