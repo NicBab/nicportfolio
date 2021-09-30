@@ -7,6 +7,7 @@ const Resume = () => {
         <div className="resumeDiv">
              <img
                 className="resumeImg"
+                style={{maxWidth: "100%", height: "auto"}}
                 src={NicBabineaux_resume}
                 alt="resume"
             />
