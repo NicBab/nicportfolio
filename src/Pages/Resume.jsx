@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Resume.css'
-import NicBabineaux_resume from '../Images/Nic Babineaux_resume.jpg'
+import NicBabineaux_resume from '../Images/NicBabineaux_resume.jpg'
 
 const Resume = () => {
     return (
