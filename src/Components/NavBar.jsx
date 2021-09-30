@@ -12,7 +12,7 @@ const NavBar = () => {
             <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
            </Nav.Item>
           <Nav.Item>
-            <Nav.Link><Link to="/bio" className="fa-bio">Bio</Link></Nav.Link>
+            <Nav.Link><Link to="/about" className="fa-about">About</Link></Nav.Link>
            </Nav.Item>
           <Nav.Item>
             <Nav.Link><Link to="/portfolio" className="fa-portfolio">Portfolio</Link></Nav.Link>

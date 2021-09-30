@@ -1,13 +1,23 @@
 .contactPg {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     padding: 20px;
     margin-bottom: 2em;
 }
 
+.contactLinkedIn,
+.contactgitHub,
 .contactEmail,
 .contactPhone {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
-    font-size: 16pt;
+    font-size: 18pt;
+    margin: 5px;
+    color: rgb(233, 233, 135);
+    cursor: pointer;
 }
