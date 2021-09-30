@@ -2,8 +2,15 @@
 
 .header {
     font-size: 3em;
-    padding: 2rem;
     text-align: center;
     color: white;
     font-family: 'Sonsie One', cursive;
+}
+
+.subHeader {
+    font-size: 17pt;
+    text-align: center;
+    color: white;
+    font-family: 'Sonsie One', cursive;
+    margin-bottom: 2rem;
 }
