@@ -8,8 +8,10 @@ const Footer = () => {
           <div id="foot">
             <div className="footName">@Nic Babineaux Portfolio 2021</div>
           </div>
-          <div id="footerIconsSpace"><IconsFooter/></div>
-          <div className="stellar">a Stellar Innovation Development</div>
+          <div id="footerIconsSpace">
+            <IconsFooter/>
+          </div>
+         <div className="stellar">a Stellar Innovation Development</div>
         </>
     )
 }

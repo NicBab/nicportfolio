@@ -1,5 +1,5 @@
 .portfolioPg {
-    text-align: center;
+    padding: 2em;
 }
 
 .nicPortfolio,
@@ -8,7 +8,6 @@
 .artCollector {
     cursor: pointer;
     color: blue;
-    padding: 5px;
-    margin-left: 20px;
+    padding: 2rem;
     font-size: 18pt;
 }
