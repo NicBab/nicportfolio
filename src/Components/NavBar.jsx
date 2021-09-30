@@ -17,7 +17,10 @@ const NavBar = () => {
           <Nav.Item>
             <Nav.Link><Link to="/portfolio" className="fa-portfolio">Portfolio</Link></Nav.Link>
            </Nav.Item>
-          <Nav.Item>
+           <Nav.Item>
+            <Nav.Link><Link to ="/resume" className="fa-resume">Resume</Link></Nav.Link>
+           </Nav.Item>
+           <Nav.Item>
             <Nav.Link><Link to ="/contact" className="fa-contact">Contact</Link></Nav.Link>
            </Nav.Item>
            <div className="headIconsSpace">
