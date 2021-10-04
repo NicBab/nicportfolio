@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
 
 .header {
+
+}
+
+.treeImg {
+    border-radius: 50%;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3em;
     text-align: center;
     color: white;
-    margin-top: 2rem;
     font-family: 'Sonsie One', cursive;
 }
 
-.subHeader {
+.subTitle {
+    display: flex;
+    flex-direction: column;
     font-size: 17pt;
     text-align: center;
     color: white;

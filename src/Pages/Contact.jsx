@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
       <>
-        <div className="contactPg">Contact Me
+        <div className="contactPg">
           <div className="contactLinkedIn" onClick={onContactLinkedInClick}>LinkedIn</div>
           <div className="contactGitHub" onClick={onContactGitHubClick}>GitHub</div>
           <div className="contactEmail" onClick={onContactEmailClick}>{mailIcon}nickpbab@gmail.com</div>
