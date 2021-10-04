@@ -14,8 +14,9 @@ const onLinkedinClick = () => {
 
 return (
     <div id="iconsFoot">
-        <div className="gitHubIconFooter" onClick={onGitHubClick}>{gitHubIconFoot}</div>
         <div className="linkedinIconFooter" onClick={onLinkedinClick}>{linkedinIconFoot}</div>
+        <div className="gitHubIconFooter" onClick={onGitHubClick}>{gitHubIconFoot}</div>
+        
     </div>
 )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Resume.css'
-import NicBabineaux_resume from '../Images/NicBabineaux_resume.jpg'
+import NicBab_resume from '../Images/NicBab_resume.jpg'
 
 const Resume = () => {
     return (
@@ -8,7 +8,7 @@ const Resume = () => {
              <img
                 className="resumeImg"
                 style={{maxWidth: "100%", height: "auto"}}
-                src={NicBabineaux_resume}
+                src={NicBab_resume}
                 alt="resume"
             />
         </div>
