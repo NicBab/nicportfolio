@@ -15,17 +15,17 @@ const Portfolio = () => {
         window.open("https://quirky-lamport-8e798a.netlify.app/")
     }
 
-    // const onNicPortfolioClick = () => {
-    //     window.open("https://github.com/NicBab/nicportfolio")
-    // }
+    const onLinkeratorClick = () => {
+        window.open("https://obscure-basin-06170.herokuapp.com/")
+    }
 
     return (
         <>
           <div className="portfolioPg">
             <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography</div>
-            <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
+            <div className="linkerator" onClick={onLinkeratorClick}>The Great Linkerator</div>
             <div className="artCollector" onClick={onArtCollectorClick}>Harvard Art Collector</div>
-            <div className="project4">Project4</div>
+            <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
             <div className="project5">Project5</div>
           </div>
         </>

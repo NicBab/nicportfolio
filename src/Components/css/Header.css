@@ -6,7 +6,6 @@
 
 .treeImg {
     border-radius: 50%;
-    
 }
 
 .title {
@@ -17,6 +16,7 @@
     text-align: center;
     color: white;
     font-family: 'Sonsie One', cursive;
+    margin-right: auto;
 }
 
 .subTitle {
