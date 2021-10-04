@@ -25,6 +25,8 @@ const Portfolio = () => {
             <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography</div>
             <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
             <div className="artCollector" onClick={onArtCollectorClick}>Harvard Art Collector</div>
+            <div className="project4">Project4</div>
+            <div className="project5">Project5</div>
           </div>
         </>
     )

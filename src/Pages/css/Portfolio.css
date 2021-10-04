@@ -5,7 +5,9 @@
 .nicPortfolio,
 .sgPhotography,
 .bayouBros,
-.artCollector {
+.artCollector,
+.project4,
+.project5 {
     cursor: pointer;
     color: rgb(233, 233, 135);
     padding: 2rem;
