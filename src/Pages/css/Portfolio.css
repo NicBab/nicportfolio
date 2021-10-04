@@ -2,11 +2,10 @@
     padding: 2em;
 }
 
-.nicPortfolio,
 .sgPhotography,
-.bayouBros,
+.linkerator,
 .artCollector,
-.project4,
+.bayouBros,
 .project5 {
     cursor: pointer;
     color: rgb(233, 233, 135);
