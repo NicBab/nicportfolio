@@ -4,9 +4,9 @@
 
 .sgPhotography,
 .linkerator,
+.firebaseLogin,
 .artCollector,
-.bayouBros,
-.project5 {
+.bayouBros {
     cursor: pointer;
     color: rgb(233, 233, 135);
     padding: 2rem;

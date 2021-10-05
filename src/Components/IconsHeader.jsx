@@ -18,9 +18,9 @@ const IconsHeader = () => {
         window.open("https://github.com/NicBab")
     }
 
-    const onFacebookIconClick = () => {
-        window.open("")
-    }
+    // const onFacebookIconClick = () => {
+    //     window.open("")
+    // }
 
     // const onInstaClick = () => {
     //     window.open("")
@@ -30,7 +30,7 @@ const IconsHeader = () => {
         <div id="iconsHead">
             <div className="linkedinIconHeader" onClick={onLinkedinClick}>{linkedinIconHead}</div>
             <div className="gitHubIconHeader" onClick={onGitHubClick}>{gitHubIconHead}</div>
-            <div className="facebookIconHeader" onClick={onFacebookIconClick}>{facebookIconHead}</div>
+            {/* <div className="facebookIconHeader" onClick={onFacebookIconClick}>{facebookIconHead}</div> */}
             {/* <div className="instaIconHeader" onClick={onInstaClick}>{instaIconHead}</div> */}
         </div>
     )
