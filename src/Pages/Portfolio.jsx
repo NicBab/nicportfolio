@@ -22,12 +22,11 @@ const Portfolio = () => {
     return (
         <>
           <div className="portfolioPg">
-            <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography</div>
+            <div className="sgPhotography" onClick={onSgPhotographyClick}>SG Photography - </div>
             <div className="linkerator" onClick={onLinkeratorClick}>The Great Linkerator</div>
             <div className="firebaseLogin">Firebase login</div>
             <div className="artCollector" onClick={onArtCollectorClick}>Harvard Art Collector</div>
             <div className="bayouBros" onClick={onBayouBrosClick}>Bayou Bros Meats</div>
-            
           </div>
         </>
     )

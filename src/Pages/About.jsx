@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './css/About.css'
+import IMG_3364 from '../Images/IMG_3364.jpeg'
 
 const About = () => {
     return (
@@ -8,6 +9,12 @@ const About = () => {
       <Container>
         <figure>
           <figCaption>
+          <img
+          className="headerImg"
+          style={{maxWidth: "12em", height: "auto"}}
+          src={IMG_3364}
+          alt="meProfilePic"
+        />
             Hi all! My name is Nic Babineaux, I am currently located in Lafayette, Louisiana.
           I am a fullstack, front end, ui developer, certified powersports technician and musician.
           Attended and graduated MMI mechanical school in Phoenix, Arizona class of 2010.
