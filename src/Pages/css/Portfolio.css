@@ -9,7 +9,12 @@
 .bayouBros {
     cursor: pointer;
     color: rgb(233, 233, 135);
-    padding: 2rem;
+    padding: 18px;
     font-size: 18pt;
+}
+
+.portfolioDescription {
+    font-size: 12pt;
+    color: rgb(243, 243, 201);
 }
 
